@@ -1,0 +1,19 @@
+{
+  "name": "helper",
+  "version": "1.0.0",
+  "description": "Catalog with useful information for people",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Anton Kudryavtsev",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.1-alpha.2",
+    "mkdir": "0.0.2",
+    "nedb": "^1.8.0",
+    "sha256": "^0.2.0",
+    "yaml": "^1.3.2"
+  }
+}
